@@ -488,7 +488,7 @@
       --header-logo-link-top: -1rem;
       --header-logo-link-left: 0;
       --transition-duration: .3s;
-        --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
+      --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
   }
   
   body,a {
@@ -705,6 +705,7 @@ ul.row {
     right: -0.1rem;
     left: -0.1rem;
     z-index: 1;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner{
