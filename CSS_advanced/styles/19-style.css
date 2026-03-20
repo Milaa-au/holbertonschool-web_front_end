@@ -488,10 +488,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 .navbar-menu {
     float: right;
 }
@@ -539,12 +535,14 @@ ul.row {
     padding: calc(var(--font-size-medium) / 2);
 }
 
-.footer-copyright {
-    margin: 0;
-    font-size: var(--font-size-small);
-    color: var(--text-color);
+.footer {
+  padding: var(--footer-padding);
 }
-
 .footer ul {
-    text-align: right;
+  text-align: right;
+}
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
 }
